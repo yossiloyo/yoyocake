@@ -1,0 +1,748 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: rgba(47,47,47,0.98);
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Clicker Script', cursive;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'Sansita', sans-serif; */
+}
+
+.contenedor-global{
+    width: 90%;
+    /* height: 2010px; */
+    margin: 2% auto;
+    overflow: hidden;
+    background: #f4f1e4;
+    max-width: 1300px; 
+}
+
+.img-portada{
+ width: 100%;
+ 
+}
+.navbar-toggle{
+    padding: 0px;
+}
+ .container-barra{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 24px;
+
+   
+}
+.navbar-default  {
+    border-color: #83c1b7;
+    background-color: #83c1b7;
+ } 
+.navbar-toggle {
+    border-width:0; 
+}
+.navbar-default .navbar-nav > li > a {
+    color:  #ffffff;
+    font-family: 'Sansita', sans-serif;
+}
+.navbar-header{
+    height: 70px;
+}
+
+.seccion2{
+  background: #ffffff;
+  margin-top: 10%;
+  margin-left: 14%;
+  border: 1px solid #f7ccc3;
+  width: 70%;
+  height: 800px; /* Este es el height que quite y desaparecen las imagenes */
+  border-bottom: #fa9c98 3px solid;
+
+}
+.populares{
+  font-size: 21px;
+  color: #f08a85;
+  margin-top: 5%;
+  margin-left: 3%;
+
+}
+.hr-rosada{
+  background-color: #fdeceb;
+  height: 0.2%;
+  width: 94%;
+}
+.box1{
+
+  background-image: url("../img/imgb1.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: 0px;
+}
+
+.box2{
+  background-image: url("../img/imgb2.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -20%;
+}
+.box3{
+  background-image: url("../img/imgb3.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -40%;
+}
+.box4{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -36%;
+}
+.texto4-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto4{
+  font-size: 14px;
+  color: #878787;
+}
+.box5{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -56%;
+}
+.texto5-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto5{
+  font-size: 14px;
+  color: #878787;
+}
+.box6{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -76%;
+}
+.texto6-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto6{
+  font-size: 14px;
+  color: #878787;
+}
+.box7{
+  background-image: url("../img/imgb7.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -77%;
+}
+
+.box8{
+  background-image: url("../img/imgb8.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -97%;
+}
+.box9{
+  background-image: url("../img/imgb9.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -117%;
+}
+.box10{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -114%;
+}
+.texto10-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto10{
+  font-size: 14px;
+  color: #878787;
+}
+.box11{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -134%;
+}
+.box12{
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -154%;
+}
+.seccion3{
+  margin-top: 4%;
+  margin-left: 15%;
+  font-size: 17px;
+  width: 70%;
+  height: 200px;
+  color: #777674;
+}
+.parrafos3-izq{
+  position: relative ; 
+  left: 3%; 
+  top: 0%;
+}
+.parrafos3-der{
+  position: relative ; 
+  left: 50%; 
+  top: -17%;
+}
+.form-control-pink{
+  margin-left: 3%;
+  color: #6e6d6b;
+  border-radius: 0px;
+  border: 2px solid #fa9d9a;
+  height: 44px;
+  padding: 8px 12px;
+}
+.seccion4{
+
+  background: #7dc0b4;
+  height: 210px;
+}
+
+.ubicacion{
+  padding-top: 2%;
+  margin-left: 17.5%;
+  color: #ffffff;
+  font-size: 17px;
+}
+.hr-ubicacion{
+  background-color: #d1e4e0;
+  height: 0.2%;
+  width: 65%;
+  margin-top: 0px;
+}
+.local1{
+  background-image: url("../img/local1.jpg");
+  background-position: right;
+  width: 18%;
+  height: 45%;
+  position: relative ; 
+  left: 17.5%; 
+  top: 3%;
+  margin-right: 5%;
+}
+.texto-local1-titulo{
+  color: #ffffff;
+  font-size: 16px;
+  position: relative ; 
+  left: 36%; 
+  top: -43%;
+  margin-right: 5%;
+}
+
+.texto-local1{
+  color: #e4ecea;
+  font-size: 16px;
+  position: relative ; 
+  left: 36%; 
+  top: -43%;
+  margin-right: 5%;
+}
+.local2{
+  background-image: url("../img/local2.jpg");
+  background-position: left;
+  width: 18%;
+  height: 45%;
+  position: relative ; 
+  left: 49%; 
+  top: -93%;
+}
+.texto-local2-titulo{
+  color: #ffffff;
+  font-size: 16px;
+  position: relative ; 
+  left: 68%; 
+  top: -141%;
+}
+
+.texto-local2{
+  color: #e4ecea;
+  font-size: 16px;
+  position: relative ; 
+  left: 68%; 
+  top: -139%;
+}
+.twitter{
+  background-image: url("../img/twitter1.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 49%; 
+  top: -12%;
+}
+.pinterest{
+  background-image: url("../img/pinterest.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 57%; 
+  top: -52%;
+}
+.facebook{
+  background-image: url("../img/facebook.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 65%; 
+  top: -92%;
+}
+.googleplus{
+  background-image: url("../img/googleplus.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 73%; 
+  top: -132%;
+}
+.correo{
+  background-image: url("../img/correo.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 81%; 
+  top: -172%;
+}
+.seccion5{
+  margin-top: 1%; 
+  height: 50px;
+}
+.parrafos5-izq{
+  color: #7a7a77;
+  position: relative ; 
+  left: 17%;
+  top: 0%;
+}
+.parrafos5-der{
+  color: #7a7a77;
+  position: relative ; 
+  left: 58%; 
+  top: -60%;
+}
+.centro-pagina{
+   
+  margin-top: -4%;
+}
+
+@media screen and (max-width: 1200px){
+    /* aqui pensaba probar unas cosas */
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: rgba(47,47,47,0.98);
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Clicker Script', cursive;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'Sansita', sans-serif; */
+}
+
+.contenedor-global{
+    width: 90%;
+    /* height: 2010px; */
+    margin: 2% auto;
+    overflow: hidden;
+    background: #f4f1e4;
+    max-width: 1300px; 
+}
+
+.img-portada{
+ width: 100%;
+ 
+}
+.navbar-toggle{
+    padding: 0px;
+}
+ .container-barra{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 24px;
+
+   
+}
+.navbar-default  {
+    border-color: #83c1b7;
+    background-color: #83c1b7;
+ } 
+.navbar-toggle {
+    border-width:0; 
+}
+.navbar-default .navbar-nav > li > a {
+    color:  #ffffff;
+    font-family: 'Sansita', sans-serif;
+}
+.navbar-header{
+    height: 70px;
+}
+
+.seccion2{
+  background: #ffffff;
+  margin-top: 10%;
+  margin-left: 14%;
+  border: 1px solid #f7ccc3;
+  width: 70%;
+  height: 800px; /* Este es el height que quite y desaparecen las imagenes */
+  border-bottom: #fa9c98 3px solid;
+
+}
+.populares{
+  font-size: 21px;
+  color: #f08a85;
+  margin-top: 5%;
+  margin-left: 3%;
+
+}
+.hr-rosada{
+  background-color: #fdeceb;
+  height: 0.2%;
+  width: 94%;
+}
+.box1{
+
+  background-image: url("../img/imgb1.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: 0px;
+}
+
+.box2{
+  background-image: url("../img/imgb2.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -20%;
+}
+.box3{
+  background-image: url("../img/imgb3.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -40%;
+}
+.box4{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -36%;
+}
+.texto4-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto4{
+  font-size: 14px;
+  color: #878787;
+}
+.box5{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -56%;
+}
+.texto5-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto5{
+  font-size: 14px;
+  color: #878787;
+}
+.box6{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -76%;
+}
+.texto6-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto6{
+  font-size: 14px;
+  color: #878787;
+}
+.box7{
+  background-image: url("../img/imgb7.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -77%;
+}
+
+.box8{
+  background-image: url("../img/imgb8.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -97%;
+}
+.box9{
+  background-image: url("../img/imgb9.jpg");
+  border: 2px solid #f5c1b6;
+  background-position: center;
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -117%;
+}
+.box10{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 3%; 
+  top: -114%;
+}
+.texto10-titulo{
+  font-size: 17px;
+  color: #ee928d;
+}
+.texto10{
+  font-size: 14px;
+  color: #878787;
+}
+.box11{
+   width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 35%; 
+  top: -134%;
+}
+.box12{
+  width: 30%;
+  height: 20%;
+  position: relative ; 
+  left: 67%; 
+  top: -154%;
+}
+.seccion3{
+  margin-top: 4%;
+  margin-left: 15%;
+  font-size: 17px;
+  width: 70%;
+  height: 200px;
+  color: #777674;
+}
+.parrafos3-izq{
+  position: relative ; 
+  left: 3%; 
+  top: 0%;
+}
+.parrafos3-der{
+  position: relative ; 
+  left: 50%; 
+  top: -17%;
+}
+.form-control-pink{
+  margin-left: 3%;
+  color: #6e6d6b;
+  border-radius: 0px;
+  border: 2px solid #fa9d9a;
+  height: 44px;
+  padding: 8px 12px;
+}
+.seccion4{
+
+  background: #7dc0b4;
+  height: 210px;
+}
+
+.ubicacion{
+  padding-top: 2%;
+  margin-left: 17.5%;
+  color: #ffffff;
+  font-size: 17px;
+}
+.hr-ubicacion{
+  background-color: #d1e4e0;
+  height: 0.2%;
+  width: 65%;
+  margin-top: 0px;
+}
+.local1{
+  background-image: url("../img/local1.jpg");
+  background-position: right;
+  width: 18%;
+  height: 45%;
+  position: relative ; 
+  left: 17.5%; 
+  top: 3%;
+  margin-right: 5%;
+}
+.texto-local1-titulo{
+  color: #ffffff;
+  font-size: 16px;
+  position: relative ; 
+  left: 36%; 
+  top: -43%;
+  margin-right: 5%;
+}
+
+.texto-local1{
+  color: #e4ecea;
+  font-size: 16px;
+  position: relative ; 
+  left: 36%; 
+  top: -43%;
+  margin-right: 5%;
+}
+.local2{
+  background-image: url("../img/local2.jpg");
+  background-position: left;
+  width: 18%;
+  height: 45%;
+  position: relative ; 
+  left: 49%; 
+  top: -93%;
+}
+.texto-local2-titulo{
+  color: #ffffff;
+  font-size: 16px;
+  position: relative ; 
+  left: 68%; 
+  top: -141%;
+}
+
+.texto-local2{
+  color: #e4ecea;
+  font-size: 16px;
+  position: relative ; 
+  left: 68%; 
+  top: -139%;
+}
+.twitter{
+  background-image: url("../img/twitter1.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 49%; 
+  top: -12%;
+}
+.pinterest{
+  background-image: url("../img/pinterest.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 57%; 
+  top: -52%;
+}
+.facebook{
+  background-image: url("../img/facebook.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 65%; 
+  top: -92%;
+}
+.googleplus{
+  background-image: url("../img/googleplus.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 73%; 
+  top: -132%;
+}
+.correo{
+  background-image: url("../img/correo.png");
+  background-position: center;
+  width: 9%;
+  height: 40%;
+  position: relative ; 
+  left: 81%; 
+  top: -172%;
+}
+.seccion5{
+  margin-top: 1%; 
+  height: 50px;
+}
+.parrafos5-izq{
+  color: #7a7a77;
+  position: relative ; 
+  left: 17%;
+  top: 0%;
+}
+.parrafos5-der{
+  color: #7a7a77;
+  position: relative ; 
+  left: 58%; 
+  top: -60%;
+}
+.centro-pagina{
+   
+  margin-top: -4%;
+}
+
+@media screen and (max-width: 1200px){
+    /* aqui pensaba probar unas cosas */
+}
