@@ -16,12 +16,12 @@ body,html{
     margin: 2% auto;
     overflow: hidden;
     background: #f4f1e4;
-    max-width: 1300px; 
+    max-width: 1300px;
 }
 
 .img-portada{
  width: 100%;
- 
+
 }
 .navbar-toggle{
     padding: 0px;
@@ -32,14 +32,14 @@ body,html{
     padding-left: 0px;
     font-size: 24px;
 
-   
+
 }
 .navbar-default  {
     border-color: #83c1b7;
     background-color: #83c1b7;
- } 
+ }
 .navbar-toggle {
-    border-width:0; 
+    border-width:0;
 }
 .navbar-default .navbar-nav > li > a {
     color:  #ffffff;
@@ -55,7 +55,7 @@ body,html{
   margin-left: 14%;
   border: 1px solid #f7ccc3;
   width: 70%;
-  height: 800px; /* Este es el height que quite y desaparecen las imagenes */
+  min-height: 800px; /* Este es el height que quite y desaparecen las imagenes */
   border-bottom: #fa9c98 3px solid;
 
 }
@@ -72,15 +72,24 @@ body,html{
   width: 94%;
 }
 .box1{
-
-  background-image: url("../img/imgb1.jpg");
+    background-image: url('../img/imgb1.jpg');
+    border: 2px solid #f5c1b6;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  /*background-image: url("../img/imgb1.jpg");
   border: 2px solid #f5c1b6;
   background-position: center;
   width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
-  top: 0px;
+  position: relative ;
+  left: 3%;
+  top: 0px;*/
 }
 
 .box2{
@@ -89,8 +98,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -20%;
 }
 .box3{
@@ -99,15 +108,15 @@ body,html{
   background-position: center;
   width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -40%;
 }
 .box4{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -36%;
 }
 .texto4-titulo{
@@ -121,8 +130,8 @@ body,html{
 .box5{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -56%;
 }
 .texto5-titulo{
@@ -136,8 +145,8 @@ body,html{
 .box6{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -76%;
 }
 .texto6-titulo{
@@ -154,8 +163,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -77%;
 }
 
@@ -165,8 +174,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -97%;
 }
 .box9{
@@ -175,15 +184,15 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -117%;
 }
 .box10{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -114%;
 }
 .texto10-titulo{
@@ -197,15 +206,15 @@ body,html{
 .box11{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -134%;
 }
 .box12{
   width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -154%;
 }
 .seccion3{
@@ -217,13 +226,13 @@ body,html{
   color: #777674;
 }
 .parrafos3-izq{
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: 0%;
 }
 .parrafos3-der{
-  position: relative ; 
-  left: 50%; 
+  position: relative ;
+  left: 50%;
   top: -17%;
 }
 .form-control-pink{
@@ -257,16 +266,16 @@ body,html{
   background-position: right;
   width: 18%;
   height: 45%;
-  position: relative ; 
-  left: 17.5%; 
+  position: relative ;
+  left: 17.5%;
   top: 3%;
   margin-right: 5%;
 }
 .texto-local1-titulo{
   color: #ffffff;
   font-size: 16px;
-  position: relative ; 
-  left: 36%; 
+  position: relative ;
+  left: 36%;
   top: -43%;
   margin-right: 5%;
 }
@@ -274,8 +283,8 @@ body,html{
 .texto-local1{
   color: #e4ecea;
   font-size: 16px;
-  position: relative ; 
-  left: 36%; 
+  position: relative ;
+  left: 36%;
   top: -43%;
   margin-right: 5%;
 }
@@ -284,23 +293,23 @@ body,html{
   background-position: left;
   width: 18%;
   height: 45%;
-  position: relative ; 
-  left: 49%; 
+  position: relative ;
+  left: 49%;
   top: -93%;
 }
 .texto-local2-titulo{
   color: #ffffff;
   font-size: 16px;
-  position: relative ; 
-  left: 68%; 
+  position: relative ;
+  left: 68%;
   top: -141%;
 }
 
 .texto-local2{
   color: #e4ecea;
   font-size: 16px;
-  position: relative ; 
-  left: 68%; 
+  position: relative ;
+  left: 68%;
   top: -139%;
 }
 .twitter{
@@ -308,8 +317,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 49%; 
+  position: relative ;
+  left: 49%;
   top: -12%;
 }
 .pinterest{
@@ -317,8 +326,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 57%; 
+  position: relative ;
+  left: 57%;
   top: -52%;
 }
 .facebook{
@@ -326,8 +335,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 65%; 
+  position: relative ;
+  left: 65%;
   top: -92%;
 }
 .googleplus{
@@ -335,8 +344,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 73%; 
+  position: relative ;
+  left: 73%;
   top: -132%;
 }
 .correo{
@@ -344,28 +353,28 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 81%; 
+  position: relative ;
+  left: 81%;
   top: -172%;
 }
 .seccion5{
-  margin-top: 1%; 
+  margin-top: 1%;
   height: 50px;
 }
 .parrafos5-izq{
   color: #7a7a77;
-  position: relative ; 
+  position: relative ;
   left: 17%;
   top: 0%;
 }
 .parrafos5-der{
   color: #7a7a77;
-  position: relative ; 
-  left: 58%; 
+  position: relative ;
+  left: 58%;
   top: -60%;
 }
 .centro-pagina{
-   
+
   margin-top: -4%;
 }
 
@@ -390,12 +399,12 @@ body,html{
     margin: 2% auto;
     overflow: hidden;
     background: #f4f1e4;
-    max-width: 1300px; 
+    max-width: 1300px;
 }
 
 .img-portada{
  width: 100%;
- 
+
 }
 .navbar-toggle{
     padding: 0px;
@@ -406,14 +415,14 @@ body,html{
     padding-left: 0px;
     font-size: 24px;
 
-   
+
 }
 .navbar-default  {
     border-color: #83c1b7;
     background-color: #83c1b7;
- } 
+ }
 .navbar-toggle {
-    border-width:0; 
+    border-width:0;
 }
 .navbar-default .navbar-nav > li > a {
     color:  #ffffff;
@@ -429,7 +438,7 @@ body,html{
   margin-left: 14%;
   border: 1px solid #f7ccc3;
   width: 70%;
-  height: 800px; /* Este es el height que quite y desaparecen las imagenes */
+  min-height: 800px; /* Este es el height que quite y desaparecen las imagenes */
   border-bottom: #fa9c98 3px solid;
 
 }
@@ -445,17 +454,6 @@ body,html{
   height: 0.2%;
   width: 94%;
 }
-.box1{
-
-  background-image: url("../img/imgb1.jpg");
-  border: 2px solid #f5c1b6;
-  background-position: center;
-  width: 30%;
-  height: 20%;
-  position: relative ; 
-  left: 3%; 
-  top: 0px;
-}
 
 .box2{
   background-image: url("../img/imgb2.jpg");
@@ -463,8 +461,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -20%;
 }
 .box3{
@@ -473,15 +471,15 @@ body,html{
   background-position: center;
   width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -40%;
 }
 .box4{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -36%;
 }
 .texto4-titulo{
@@ -495,8 +493,8 @@ body,html{
 .box5{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -56%;
 }
 .texto5-titulo{
@@ -510,8 +508,8 @@ body,html{
 .box6{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -76%;
 }
 .texto6-titulo{
@@ -528,8 +526,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -77%;
 }
 
@@ -539,8 +537,8 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -97%;
 }
 .box9{
@@ -549,15 +547,15 @@ body,html{
   background-position: center;
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -117%;
 }
 .box10{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: -114%;
 }
 .texto10-titulo{
@@ -571,15 +569,15 @@ body,html{
 .box11{
    width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 35%; 
+  position: relative ;
+  left: 35%;
   top: -134%;
 }
 .box12{
   width: 30%;
   height: 20%;
-  position: relative ; 
-  left: 67%; 
+  position: relative ;
+  left: 67%;
   top: -154%;
 }
 .seccion3{
@@ -591,13 +589,13 @@ body,html{
   color: #777674;
 }
 .parrafos3-izq{
-  position: relative ; 
-  left: 3%; 
+  position: relative ;
+  left: 3%;
   top: 0%;
 }
 .parrafos3-der{
-  position: relative ; 
-  left: 50%; 
+  position: relative ;
+  left: 50%;
   top: -17%;
 }
 .form-control-pink{
@@ -631,16 +629,16 @@ body,html{
   background-position: right;
   width: 18%;
   height: 45%;
-  position: relative ; 
-  left: 17.5%; 
+  position: relative ;
+  left: 17.5%;
   top: 3%;
   margin-right: 5%;
 }
 .texto-local1-titulo{
   color: #ffffff;
   font-size: 16px;
-  position: relative ; 
-  left: 36%; 
+  position: relative ;
+  left: 36%;
   top: -43%;
   margin-right: 5%;
 }
@@ -648,8 +646,8 @@ body,html{
 .texto-local1{
   color: #e4ecea;
   font-size: 16px;
-  position: relative ; 
-  left: 36%; 
+  position: relative ;
+  left: 36%;
   top: -43%;
   margin-right: 5%;
 }
@@ -658,23 +656,23 @@ body,html{
   background-position: left;
   width: 18%;
   height: 45%;
-  position: relative ; 
-  left: 49%; 
+  position: relative ;
+  left: 49%;
   top: -93%;
 }
 .texto-local2-titulo{
   color: #ffffff;
   font-size: 16px;
-  position: relative ; 
-  left: 68%; 
+  position: relative ;
+  left: 68%;
   top: -141%;
 }
 
 .texto-local2{
   color: #e4ecea;
   font-size: 16px;
-  position: relative ; 
-  left: 68%; 
+  position: relative ;
+  left: 68%;
   top: -139%;
 }
 .twitter{
@@ -682,8 +680,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 49%; 
+  position: relative ;
+  left: 49%;
   top: -12%;
 }
 .pinterest{
@@ -691,8 +689,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 57%; 
+  position: relative ;
+  left: 57%;
   top: -52%;
 }
 .facebook{
@@ -700,8 +698,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 65%; 
+  position: relative ;
+  left: 65%;
   top: -92%;
 }
 .googleplus{
@@ -709,8 +707,8 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 73%; 
+  position: relative ;
+  left: 73%;
   top: -132%;
 }
 .correo{
@@ -718,28 +716,28 @@ body,html{
   background-position: center;
   width: 9%;
   height: 40%;
-  position: relative ; 
-  left: 81%; 
+  position: relative ;
+  left: 81%;
   top: -172%;
 }
 .seccion5{
-  margin-top: 1%; 
+  margin-top: 1%;
   height: 50px;
 }
 .parrafos5-izq{
   color: #7a7a77;
-  position: relative ; 
+  position: relative ;
   left: 17%;
   top: 0%;
 }
 .parrafos5-der{
   color: #7a7a77;
-  position: relative ; 
-  left: 58%; 
+  position: relative ;
+  left: 58%;
   top: -60%;
 }
 .centro-pagina{
-   
+
   margin-top: -4%;
 }
 
